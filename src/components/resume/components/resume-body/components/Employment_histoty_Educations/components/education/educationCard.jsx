@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../Title/kbd_title";
+import Title from "../../../Title/kbd_title";
 import Date from "../../../Date/date";
 
 export function EducationCard(props) {
