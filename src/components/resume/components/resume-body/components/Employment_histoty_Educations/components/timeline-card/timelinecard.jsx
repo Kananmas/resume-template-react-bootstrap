@@ -1,6 +1,6 @@
 import React from "react";
 import UnorderedList from "../../../UnorderedList/UnorderedList";
-import Title from "../Title/kbd_title";
+import Title from "../../../Title/kbd_title";
 import Date from "../../../Date/date";
 
 export function Timelinecard(props) {
