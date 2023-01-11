@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsandReferences from "./components/SkillandRefrences/skills-and-refrences";
-import { EmploymenthistotyEducations } from "./components/Employment_histoty_Educations/Timeline_and_educations";
+import { EmploymenthistotyEducations } from "./components/Employment_Educations/Employment_Educations";
 
 export function Resumebody(props) {
   return (
