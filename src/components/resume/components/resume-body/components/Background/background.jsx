@@ -2,7 +2,7 @@ import React from "react";
 import { Timelinecard } from "./components/timeline-card/timelinecard";
 import { EducationCard } from "./components/education/educationCard";
 
-export function EmploymenthistotyEducations(props) {
+export function Background(props) {
   return (
     <>
       <div className="col-6">
