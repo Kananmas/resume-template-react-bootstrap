@@ -1,6 +1,7 @@
 import React from "react";
 import { Timelinecard } from "./components/timeline-card/timelinecard";
 import { EducationCard } from "./components/education/educationCard";
+import randomString from "../../../../../../utlis/randomString";
 
 export function Background(props) {
   return (
@@ -10,7 +11,7 @@ export function Background(props) {
         {props.workhistory.map((element) => {
           return (
             <Timelinecard
-              key={Math.random().toString(16).slice(2)}
+              key={randomString()}
               title={element.title}
               startingDate={element.startingDate}
               endingDate={element.endingDate}
@@ -22,7 +23,7 @@ export function Background(props) {
         {props.educations.map((education) => {
           return (
             <EducationCard
-              key={Math.random().toString(16).slice(2)}
+              key={randomString()}
               educationTitle={education.title}
               educationStartingDate={education.datestart}
               educationEndingDate={education.dateend}
